@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Sora", serif;
+    max-width: 128rem;
+    max-height: 78rem;
+    background: #fafaf9;
+}
+.container{
+    display: flex;
+    padding: 7.2rem;
+}
+.container--introduction{
+    width: 64rem;
+}
+.container--introduction__star{
+    background-color: #f5c044ca;
+    border-radius: 50%;
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 2.8rem;
+}
+.container--introduction__title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    margin-top: 2.4rem;
+}
+.container--introduction__desc{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #999;
+    line-height: 2.8rem;
+}
+.container--introduction__features{
+    margin-top: 4.2rem;
+}
+.container--introduction__feature{
+    display: flex;
+    align-items: center;
+}
+.feature--tick{
+    font-size: 1.4rem;
+}
+.feature--content{
+    font-size: 1.4rem;
+    color: #999;
+    margin: 0 0;
+}
+.container--reviews{
+    margin-left: 2rem;
+    width: 64rem;
+    
+}
+.container--review{
+    width: 36rem;
+}
+.review{
+    padding: 3.2rem 4.2rem 3.2rem 4.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 2.9rem 0rem;
+    background-color: #fff;
+}
+.review--company__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+}
+.review--company__img{
+    height: 1.6rem;
+}
+.review--author{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.review--content{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.left-0{
+    position: relative;
+    left: 0;
+}
+.right-0{
+    position: relative;
+    right: 0;
+    left: 0;
+    transform: translateX(50%);
+}
+.mt-36{
+    margin-top: 3.6rem;
+}
+@media screen and (max-width: 641px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem;
+    }
+    .container--reviews{
+        margin-top: 3.2rem;
+    }
+}
